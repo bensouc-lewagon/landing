@@ -1,0 +1,72 @@
+/* Write some CSS below */
+body{
+	    font-family: Overpass;
+    	color: #404042;
+    	font-size: 18px;
+    	background-color: white;
+    	text-align: center;
+}
+h1{
+	color: white;
+	font-size: 55px;
+	font-weight: 900;
+	font-family: 'Chivo', sans-serif;
+}
+h3{
+	color: grey;
+
+}
+
+.campus-card{
+	height: 300px;
+	width: 200px;
+	border: 1px solid red;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+#banner{
+	height: 434px;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.btn-blue{
+	width: 200px;
+	height: 36px;
+	background-color: blue;
+	padding: 7px 0px 0px 0px;
+	border-radius: 5px;
+}
+.card-text{
+	padding: 10px;
+}
+
+.image-card{
+	width: 200px;
+
+}
+
+.card-details p {
+	color: black ;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	font-size: 20px;
+    font-weight: bold;}
+
+.cards{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+
+
+}
+
+
+/* Write some CUSTOM CSS below */

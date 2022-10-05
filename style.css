@@ -5,6 +5,7 @@ body{
     	font-size: 18px;
     	background-color: white;
     	text-align: center;
+    	margin: 0;
 }
 h1{
 	color: white;
@@ -38,6 +39,7 @@ h3{
 	background-color: blue;
 	padding: 7px 0px 0px 0px;
 	border-radius: 5px;
+	margin: 90px auto;
 }
 .card-text{
 	padding: 10px;
@@ -48,6 +50,9 @@ h3{
 
 }
 
+.first-title{
+	margin: 0px 0 126px 0;
+}
 .card-details p {
 	color: black ;
 }
@@ -64,8 +69,7 @@ a{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 15px;
-
-
+	justify-items: center;
 }
 
 
